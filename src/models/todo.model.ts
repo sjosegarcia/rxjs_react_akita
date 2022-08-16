@@ -1,6 +1,6 @@
 
 import { ID, guid } from '@datorama/akita';
-
+// This is the entity object that represents what we are storing
 export type Todo = {
   id: ID;
   text: string;
