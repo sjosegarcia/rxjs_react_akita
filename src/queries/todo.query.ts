@@ -1,6 +1,6 @@
 
-import { TodosState, todosStore, TodosStore } from './todo.store';
-import { Todo, VISIBILITY_FILTER } from './todo.model';
+import { TodosState, todosStore, TodosStore } from '../store/todo.store';
+import { Todo, VISIBILITY_FILTER } from '../models/todo.model';
 import { QueryEntity } from '@datorama/akita';
 import { combineLatest, map } from 'rxjs';
 

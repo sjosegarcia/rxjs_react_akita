@@ -1,6 +1,6 @@
 import { ID } from "@datorama/akita";
-import { VISIBILITY_FILTER, createTodo } from "./todo.model";
-import { TodosStore, todosStore } from "./todo.store";
+import { VISIBILITY_FILTER, createTodo } from "../models/todo.model";
+import { TodosStore, todosStore } from "../store/todo.store";
 
 export class TodosService {
   constructor(private todosStore: TodosStore) {}

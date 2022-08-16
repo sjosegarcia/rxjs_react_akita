@@ -1,4 +1,4 @@
-import { Todo, VISIBILITY_FILTER } from './todo.model';
+import { Todo, VISIBILITY_FILTER } from '../models/todo.model';
 import { EntityState, EntityStore, StoreConfig } from '@datorama/akita';
 
 // Data-store
