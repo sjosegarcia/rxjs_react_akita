@@ -10,4 +10,5 @@ export const useItem = () => {
             subscription.unsubscribe();
         };
     }, []);
+    return itemsState;
 };
